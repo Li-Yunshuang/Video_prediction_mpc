@@ -1,0 +1,30 @@
+# for installing the python packages in sym-link mode:
+## go to project root
+## run
+python setup.py develop
+
+
+# for the latest tensorflow
+pip install --upgrade tensorflow-gpu
+
+pip install imageio==1.6
+pip install moviepy
+
+pip install mujoco-py==0.5.7
+
+conda install  -f  numpy
+conda install mkl
+
+sudo apt-get install python-opencv
+#when using conda:
+conda install libgcc
+
+# For running video generation on a reomote over ssh, do the following from a graphical, logged in user at that remote (allow x server access):
+xhost + 
+
+When running ROS:
+pip install rospkg
+pip install empy
+
+When running visual-mpc server:
+pip install opencv-python
